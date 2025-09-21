@@ -1,0 +1,62 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #111;
+  color: #fff;
+}
+
+/* Login Page */
+.login-container {
+  margin-top: 100px;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.login-container input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #45a049;
+}
+
+#error-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Game Page */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #333;
+}
+
+canvas {
+  margin-top: 30px;
+  border: 2px solid #fff;
+  background: #000;
+}
